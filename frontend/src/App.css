@@ -1,0 +1,112 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f2f6fa;
+  background: #0e1a26;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  color: #bdd3ea;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #13273a;
+  border: 1px solid #2f4c66;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #3b5d7d;
+  font-size: 14px;
+}
+
+input,
+select {
+  background: #0f2232;
+  color: #eff7ff;
+}
+
+button {
+  background: #2c7cc2;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error {
+  background: #461b26;
+  border: 1px solid #8a2f44;
+  color: #ffc8d4;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #2b465e;
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap;
+}
+
+.hash {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #9ec3e6;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.actions button {
+  margin-right: 8px;
+}
+
+.actions button:last-child {
+  margin-right: 0;
+}
+
+.danger {
+  background: #a4344b;
+  border-color: #bd4961;
+}
